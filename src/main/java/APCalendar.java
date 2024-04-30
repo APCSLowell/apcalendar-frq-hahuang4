@@ -16,7 +16,7 @@ public class APCalendar
 int count=0;
     for(int y=year1;y<=year2;y++)
       {
-        if(isLeapYear(y0)
+        if(isLeapYear(y)
            { 
           count++;
            }
