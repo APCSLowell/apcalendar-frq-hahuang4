@@ -60,7 +60,7 @@ int count=0;
   public static int dayOfWeek(int month, int day, int year)
   {
     /* to be implemented in part (b) */
-    int startDay=firstDayofYear(year);
+    int startDay=firstDayOfYear(year);
     int nthDay=dayofYear(month, day, year);
     int returnDay= (startDay+nthDay-1)%7;
     return returnDay;
