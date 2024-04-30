@@ -61,7 +61,7 @@ int count=0;
   {
     /* to be implemented in part (b) */
     int startDay=firstDayOfYear(year);
-    int nthDay=dayofYear(month, day, year);
+    int nthDay=dayOfYear(month, day, year);
     int returnDay= (startDay+nthDay-1)%7;
     return returnDay;
     
